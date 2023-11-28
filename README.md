@@ -5,9 +5,13 @@ data_train/{stn}.json ->
 ```
 
 data_datelist_test.txt -> date list for test, separated by breakline
+
 data_datelist_train.txt -> date list for train, separated by breakline
+
 data_dayfeature -> some features related to day, include "weekday", "working", "holiday"
+
 data_stn_test_set.txt -> station for test
+
 data_stn_tot.json -> station totoal bike mumber
 ```
 {

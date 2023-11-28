@@ -1,7 +1,7 @@
 # ML_FINAL
 data_train/{stn}.json ->
 ```
-"{stnid} {date} {time(like "00:00")} {tot} {weekday} {working(0 or 1)} {holiday(0 or 1)} {rain} {temp} {moist} {sbi}"
+"{stnid} {date} {time("00:00"...)} {tot} {weekday(1 to 7)} {working(0 or 1)} {holiday(0 or 1)} {rain} {temp} {moist} {sbi}"
 ```
 
 data_datelist_test.txt -> date list for test, separated by breakline

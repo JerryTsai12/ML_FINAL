@@ -29,10 +29,10 @@ data_weather.json -> date weather data
   {
     "hour("1" to "24")":
     {
-      "temp": "(str)",
-      "rain": "(str)",
-      "moist": "(str)",
-      "wind": "(str)"
+      "temp": float,
+      "rain": float,
+      "moist": float,
+      "wind": float
     }
   }
 }

@@ -1,5 +1,5 @@
 # ML_FINAL
-data_train/{stn}.json ->
+data/{stn}_test.txt ->
 ```
 "{stnid} {date} {time("00:00"...)} {tot} {weekday(1 to 7)} {working(0 or 1)} {holiday(0 or 1)} {rain} {temp} {moist} {sbi}"
 ```
@@ -7,6 +7,10 @@ data_train/{stn}.json ->
 data_datelist_test.txt -> date list for test, separated by breakline
 
 data_datelist_train.txt -> date list for train, separated by breakline
+
+data_datelist_val.txt -> date list for validation, separated by breakline
+
+data_datelist_release.txt ->有公開資料的所有日期, separated by breakline
 
 data_dayfeature -> some features related to day, include "weekday", "working", "holiday"
 

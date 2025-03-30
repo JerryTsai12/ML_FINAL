@@ -1,4 +1,4 @@
-# Bicycle Sharing System Prediction Project
+# YouBike Demand Forecasting
 
 ## Project Overview
 This project aims to predict the number of available bikes at various stations in a bicycle sharing system. The prediction is based on historical data including weather conditions, time features, and station characteristics.
